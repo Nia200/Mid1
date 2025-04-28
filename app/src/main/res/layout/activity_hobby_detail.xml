@@ -1,43 +1,26 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="16dp"
+    android:padding="24dp"
     android:background="@color/light_blue">
 
     <TextView
         android:id="@+id/tvHobbyTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="28sp"
+        android:text="Название"
+        android:textSize="26sp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:paddingBottom="10dp"/>
+        android:paddingBottom="24dp" />
 
     <ImageView
         android:id="@+id/ivHobbyImage"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:scaleType="centerCrop"
-        android:layout_marginBottom="16dp"/>
-
-    <TextView
-        android:id="@+id/tvHobbyDesc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:textColor="@color/white"
-        android:padding="16dp"/>
-
-    <Button
-        android:id="@+id/btnBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Назад"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:padding="10dp"
-        android:layout_marginTop="20dp"/>
+        android:scaleType="centerCrop" />
 </LinearLayout>
